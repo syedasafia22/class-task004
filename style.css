@@ -16,5 +16,44 @@ body{
 }
 .inputs{
     background-color:#8B4513;
+    padding: 40px 37px;
+    border-radius: 8px;
+    margin-bottom: 49px;
+}
+input,
+button{
+    height: 49px;
+    background-color: wheat;
+    color: #8B4513;
+    border-radius: 9px;
+}
+input{
+    width: 70% ;
+}
+button{
+    width: 30% ;
+}
+.outputs{width: 100% ;
+display: flex;
+justify-content: space-between;
+}
+.outputs-div{
+    height: 100px;
+    width: 100px;
+    background-color: wheat;
+    border-radius: 4px;
+    color: wheat;
+    display: grid;
+    place-items: center;
+    padding: 20px 0;
+
+}
+span{
+    font-size: 30px;
     
+}
+p{
+    font-size: 14px;
+    color: #8B4513;
+    font-weight: 400;
 }
