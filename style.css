@@ -1,0 +1,20 @@
+body{
+    background-color: burlywood;
+}
+.container{
+    width: 40px;
+    position: absolute;
+    min-width: 470px;
+    
+    left: 50% ;
+    right: 50% ;
+}
+.container * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    
+}
+.inputs{
+    background-color:#8B4513;
+    
+}
